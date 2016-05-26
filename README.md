@@ -26,7 +26,7 @@ Afin de faciliter le développement et le déploiement de l’application, la ba
 ##Le schéma de la base de données :
 Voici la base de données que Monsieur X a imaginée :
 
-![alt tag](https://coursdotnetiut.files.wordpress.com/2016/05/bdd.png)
+![alt tag](https://github.com/PierreCharles/ProductManager/blob/master/Sujet/schemaBdd.png)
 
 NB : Ce schéma pourra être amené à être complété au fur et à mesure du projet mais représente une base de travail indispensable à réaliser pour la suite du projet.
 
