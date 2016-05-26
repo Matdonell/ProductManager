@@ -1,0 +1,14 @@
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\Database.mdf
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\Database_log.ldf
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\Modele.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\Modele.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml

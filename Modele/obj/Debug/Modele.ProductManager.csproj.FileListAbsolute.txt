@@ -1,0 +1,12 @@
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Database.mdf
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Database_log.ldf
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Modele.dll.config
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Modele.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Modele.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\EntityFramework.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\EntityFramework.xml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.ProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.pdb

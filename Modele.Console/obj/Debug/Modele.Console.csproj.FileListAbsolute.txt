@@ -1,0 +1,19 @@
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Modele.Console.exe.config
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Database.mdf
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Database_log.ldf
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Modele.Console.exe
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Modele.Console.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Modele.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\Modele.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\obj\Debug\Modele.Console.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\obj\Debug\Modele.Console.exe
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\obj\Debug\Modele.Console.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\BusinessLayer.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele.Console\bin\Debug\BusinessLayer.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Modele.Console.exe.config
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\obj\Debug\Modele.Console.exe
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\obj\Debug\Modele.Console.pdb

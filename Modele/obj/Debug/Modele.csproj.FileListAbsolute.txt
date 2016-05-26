@@ -1,0 +1,11 @@
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\Database.mdf
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\Database_log.ldf
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\Modele.dll.config
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\Modele.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\Modele.pdb
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\obj\Debug\Modele.dll
+C:\Users\User\Documents\Mes Documents\Vacation\Support\TD découpés\TD-BusinessLayer-Exemple\Modele\obj\Debug\Modele.pdb
