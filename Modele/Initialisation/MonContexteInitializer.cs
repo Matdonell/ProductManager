@@ -12,7 +12,7 @@ namespace Modele.ProductManager.Initialisation
     /// Initializer réutilisable pour supprimer et recréer la base à chaque création de contexte
     /// La méthode Seed permet d'initialiser un certains nombre de données
     /// </summary>
-    public class MonContexteInitializer : DropCreateDatabaseAlways<MonContexte>
+    public class MonContexteInitializer : DropCreateDatabaseIfModelChanges<MonContexte>
     {
         /// <summary>
         /// Initialiser des données à la création du contexte
