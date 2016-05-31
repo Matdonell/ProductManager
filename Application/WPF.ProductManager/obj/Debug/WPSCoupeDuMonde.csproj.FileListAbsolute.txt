@@ -1,0 +1,42 @@
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\WPSCoupeDuMonde.exe
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\WPSCoupeDuMonde.exe.config
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\CoupeDuMondeFootball.exe
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\CoupeDuMondeFootball.pdb
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.csprojResolveAssemblyReference.cache
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\MainWindow.baml
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\MainWindow.g.cs
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\App.g.cs
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde_MarkupCompile.cache
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.g.resources
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.Properties.Resources.resources
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.csproj.GenerateResource.Cache
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.exe
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.pdb
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\WPSCoupeDuMonde.pdb
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddPlayer.baml
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddPlayer.g.cs
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowRemoveAPlayer.baml
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowRemoveAPlayer.g.cs
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddAClub.baml
+C:\Users\Pierre\Documents\I.U.T\Cours\C#\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddAClub.g.cs
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\WPSCoupeDuMonde.exe.config
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.exe
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.pdb
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\WPSCoupeDuMonde.exe
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\WPSCoupeDuMonde.pdb
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\CoupeDuMondeFootball.exe
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\bin\Debug\CoupeDuMondeFootball.pdb
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.csprojResolveAssemblyReference.cache
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\MainWindow.baml
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddAClub.baml
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowRemoveAPlayer.baml
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddPlayer.baml
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\MainWindow.g.cs
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddAClub.g.cs
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowRemoveAPlayer.g.cs
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WindowAddPlayer.g.cs
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\App.g.cs
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde_MarkupCompile.cache
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.g.resources
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.Properties.Resources.resources
+C:\Users\Pierre.C\Documents\Cours\IUT_Informatique\C#\Premiere année\MiniProjet\CoupeDuMondeFootball\WPSCoupeDuMonde\obj\Debug\WPSCoupeDuMonde.csproj.GenerateResource.Cache
