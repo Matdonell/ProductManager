@@ -10,24 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPFProductManager.ViewModels;
 
 namespace WPFProductManager
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour MainWindows.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindows : Window
     {
-        /// <summary>
-        /// Constructeur de la Fenêtre principale
-        /// </summary>
-        public MainWindow()
+        public MainWindows()
         {
             InitializeComponent();
-            this.DataContext = new HomeViewModel();
         }
     }
 }
