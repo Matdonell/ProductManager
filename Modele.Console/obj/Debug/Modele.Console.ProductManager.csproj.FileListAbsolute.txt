@@ -1,9 +1,9 @@
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\BusinessLayer.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Database.mdf
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Database_log.ldf
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Modele.Console.exe.config
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Modele.Console.exe
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Modele.Console.pdb
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\BusinessLayer.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\EntityFramework.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\bin\Debug\Modele.dll
