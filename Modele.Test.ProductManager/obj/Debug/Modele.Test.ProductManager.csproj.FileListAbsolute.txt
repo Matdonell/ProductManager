@@ -1,0 +1,6 @@
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Test.ProductManager\bin\Debug\Modele.Test.ProductManager.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Test.ProductManager\bin\Debug\Modele.Test.ProductManager.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Test.ProductManager\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Test.ProductManager\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Test.ProductManager\obj\Debug\Modele.Test.ProductManager.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Test.ProductManager\obj\Debug\Modele.Test.ProductManager.pdb
