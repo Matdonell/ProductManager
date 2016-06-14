@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:my="clr-namespace:WPFProductManager.Views"
-        Title="Product Manager" Height="500" Width="600" MinWidth="580" MinHeight="430" >
+        Title="Product Manager" Height="500" Width="600" MinWidth="800" MinHeight="430" >
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Height="25" Background="CadetBlue">
             <TextBlock FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Beige" Text="Fiche produit"/>
@@ -23,12 +23,8 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 <TextBlock FontSize="14" Height="19" VerticalAlignment="Top"><Run Text="Liste de"/><Run Text=" "/><Run Text="produits"/></TextBlock>
-                <my:ListeProduit Grid.Row="1" DataContext="{Binding ListeProduitViewModel}"></my:ListeProduit>
+                <my:ListeProduit Grid.Row="1" DataContext="{Binding ListeProduitViewModel}" Margin="0,0,-516,10"/>
                 <Button Grid.Column="3" Margin="5" Grid.Row="2" FontSize="12px" Command="{Binding AddOperation}">+</Button>
-            </Grid>
-
-            <Grid MaxWidth="600"  Grid.Column="1">
-                <my:DetailProduit DataContext="{Binding SelectedProduit, UpdateSourceTrigger=PropertyChanged}"></my:DetailProduit>
             </Grid>
 
         </Grid>

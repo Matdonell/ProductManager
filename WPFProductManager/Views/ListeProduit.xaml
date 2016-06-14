@@ -5,15 +5,29 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:my="clr-namespace:WPFProductManager.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="200">
+             d:DesignHeight="300" Width="745">
 
-        <ListView Margin="5,5,0,5" ItemsSource="{Binding Produits, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedProduit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <ListView Grid.Column="0"  Grid.Row="0" Grid.RowSpan="3" Margin="5px" ItemsSource="{Binding Produits, UpdateSourceTrigger=PropertyChanged}" SelectedItem="{Binding SelectedProduit, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Width="70px" Header="Code" DisplayMemberBinding="{Binding Code}" />
-                    <GridViewColumn Width="130px" Header="Nom" DisplayMemberBinding="{Binding Nom}" />
+                    <GridViewColumn Width="150px" Header="Nom" DisplayMemberBinding="{Binding Nom}" />
                 </GridView>
             </ListView.View>
         </ListView>
-    
+
+        <my:DetailProduit DataContext="{Binding SelectedProduit, UpdateSourceTrigger=PropertyChanged}" Grid.ColumnSpan="2" Grid.Column="1" Margin="10,0,20,10" Grid.RowSpan="3"></my:DetailProduit>
+    </Grid>
 </UserControl>

@@ -44,8 +44,13 @@ namespace WPFProductManager.ViewModels
         /// </summary>
         public string Code 
         {
-            get { return _code; }
-            set { _code = value; }
+            get {
+                return _code;
+            }
+            set {
+                _code = value;
+                OnPropertyChanged("Code");
+            }
         }
 
         /// <summary>
@@ -53,8 +58,13 @@ namespace WPFProductManager.ViewModels
         /// </summary>
         public string Nom
         {
-            get { return _nom; }
-            set { _nom = value; }
+            get {
+                return _nom;
+            }
+            set {
+                _nom = value;
+                OnPropertyChanged("Nom");
+            }
         }
 
         #endregion
