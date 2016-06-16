@@ -40,9 +40,9 @@ namespace WPFProductManager.Mock
         public List<Produit> GetAllProduit()
         {
             List<Produit> produits = new List<Produit>();
-            produits.Add(new Produit { Code = "2ER45", Nom = "Huile d'olive végétale" });
-            produits.Add(new Produit { Code = "3ZZ21", Nom = "Magrets de canard" });
-            produits.Add(new Produit { Code = "45WXB", Nom = "Terrine de truite" });
+            produits.Add(new Produit { Code = "2ER45", Nom = "Huile d'olive végétale" , Stock=10, Status= "TestStatus", Prix=50.2F });
+            produits.Add(new Produit { Code = "3ZZ21", Nom = "Magrets de canard" , Stock=120, Status= "TestStatus", Prix=85.5F});
+            produits.Add(new Produit { Code = "45WXB", Nom = "Terrine de truite", Stock=25, Status="TestStatus",Prix=120.2F });
             return produits;
         }
     }

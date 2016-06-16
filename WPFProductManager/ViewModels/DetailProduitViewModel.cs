@@ -19,6 +19,9 @@ namespace WPFProductManager.ViewModels
 
         private string _code;
         private string _nom;
+        private string _status;
+        private float _prix;
+        private int _stock;
         private RelayCommand _addOperation;
 
         #endregion
@@ -33,6 +36,9 @@ namespace WPFProductManager.ViewModels
         {
             _code = p.Code;
             _nom = p.Nom;
+            _stock = p.Stock;
+            _status = p.Status;
+            _prix = p.Prix;
         }
 
         #endregion
@@ -64,6 +70,54 @@ namespace WPFProductManager.ViewModels
             set {
                 _nom = value;
                 OnPropertyChanged("Nom");
+            }
+        }
+
+        /// <summary>
+        /// Nom du produit
+        /// </summary>
+        public int Stock
+        {
+            get
+            {
+                return _stock;
+            }
+            set
+            {
+                _stock = value;
+                OnPropertyChanged("Stock");
+            }
+        }
+
+        /// <summary>
+        /// Nom du produit
+        /// </summary>
+        public string Status
+        {
+            get
+            {
+                return _status;
+            }
+            set
+            {
+                _status = value;
+                OnPropertyChanged("Status");
+            }
+        }
+
+        /// <summary>
+        /// Nom du produit
+        /// </summary>
+        public float Prix
+        {
+            get
+            {
+                return _prix;
+            }
+            set
+            {
+                _prix = value;
+                OnPropertyChanged("Prix");
             }
         }
 

@@ -19,3 +19,24 @@ C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductMa
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.GenerateResource.Cache
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.exe
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe.config
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.exe
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Views\DetailProduit.baml
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Views\Operation.baml
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\MainWindow.g.cs
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Views\DetailProduit.g.cs
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Views\ListeProduit.g.cs
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Views\Operation.g.cs
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\App.g.cs
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager_MarkupCompile.cache
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager_MarkupCompile.lref
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\MainWindow.baml
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Views\ListeProduit.baml
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.g.resources
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.Properties.Resources.resources
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.GenerateResource.Cache
