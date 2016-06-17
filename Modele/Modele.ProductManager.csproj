@@ -67,8 +67,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configurations\CategorieFluent.cs" />
+    <Compile Include="Configurations\ClientFluent.cs" />
+    <Compile Include="Configurations\CommandeFluent.cs" />
     <Compile Include="Configurations\ProduitFluent.cs" />
     <Compile Include="Entities\Categorie.cs" />
+    <Compile Include="Entities\Client.cs" />
+    <Compile Include="Entities\Commande.cs" />
     <Compile Include="Entities\Produit.cs" />
     <Compile Include="Initialisation\MonContexteInitializer.cs" />
     <Compile Include="MonContexte.cs" />
