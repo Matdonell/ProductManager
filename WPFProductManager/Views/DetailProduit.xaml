@@ -23,11 +23,10 @@
             <ColumnDefinition Width="79*" />
         </Grid.ColumnDefinitions>
 
-        <Image Name="mPicture" Source="/Assets/default.png"
-                       Margin="17,10,10,5" MinWidth="100" Grid.Column="2" Grid.RowSpan="3"/>
+        <Image Name="mPicture" Source="/Assets/default.png" Margin="17,10,10,5" MinWidth="100" Grid.Column="2" Grid.RowSpan="3"/>
 
-        <TextBlock Margin="18,15,7,12" VerticalAlignment="Center" RenderTransformOrigin="0.475,-0.001" Height="16"><Run Text="Nom"/><Run Text=" :"/></TextBlock>
-        <TextBox Name="LastName" Grid.Column="1" Grid.Row="0" Height="30" VerticalAlignment="Center" Margin="20,8,17,5"/>
+        <TextBlock Margin="18,15,7,12" VerticalAlignment="Center" RenderTransformOrigin="0.475,-0.001" Height="16" Text="Nom :"></TextBlock>
+        <TextBox Name="LastName" Grid.Column="1" Grid.Row="0" Height="30" VerticalAlignment="Center" Margin="20,8,17,5" Text="{Binding Nom, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
 
         <TextBlock Grid.Row="1"   Margin="18,15,7,12" VerticalAlignment="Center" Height="16" Text="Référence :"/>
         <TextBox Name="Reference" Grid.Column="1"  Grid.Row="1" Height="30" VerticalAlignment="Center" Margin="20,8,17,5" Text="{Binding Code, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
