@@ -23,7 +23,7 @@ namespace Modele.ProductManager
         /// Database.SetInitializer<MonContexte>(null) => Utiliser la base définie dans la ConnectionStr telle qu'elle (utilisation "classique" une fois le contexte testé
         /// </summary>
         public MonContexte()
-            : base("name=ConnectionStrPierre") 
+            : base("name=ConnectionStrPierre")
         {
             Database.SetInitializer<MonContexte>(new MonContexteInitializer());
             //Database.SetInitializer<MonContexte>(null);

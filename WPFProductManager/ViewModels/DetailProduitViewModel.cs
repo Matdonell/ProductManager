@@ -23,6 +23,7 @@ namespace WPFProductManager.ViewModels
         private float _prix;
         private int _stock;
         private RelayCommand _addOperation;
+        private RelayCommand _addProduct;
 
         #endregion
 
@@ -139,6 +140,19 @@ namespace WPFProductManager.ViewModels
         }
 
         /// <summary>
+        /// Commande pour ouvrir la fenêtre pour ajouter un produit
+        /// </summary>
+        public ICommand AddProduct
+        {
+            get
+            {
+                if (_addProduct == null)
+                    _addProduct = new RelayCommand(() => this.ShowWindowAddProduct());
+                return _addProduct;
+            }
+        }
+ 
+        /// <summary>
         /// Permet l'ouverture de la fenêtre
         /// </summary>
         private void ShowWindowOperation()
@@ -147,6 +161,18 @@ namespace WPFProductManager.ViewModels
             operationWindow.DataContext = this;
             operationWindow.ShowDialog();
         }
+
+
+        /// <summary>
+        /// Permet l'ouverture de la fenêtre d'ajout d'un produit
+        /// </summary>
+        private void ShowWindowAddProduct()
+        {
+            Views.AjoutProduit addProductWindows = new Views.AjoutProduit();
+            addProductWindows.DataContext = this;
+            addProductWindows.ShowDialog();
+        }
+
 
         #endregion
     }

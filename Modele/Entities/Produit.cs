@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modele.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,12 @@ namespace Modele.ProductManager.Entities
     {
         public int ID { get; set; }
         public string Nom { get; set; }
+        public string Status { get; set; }
+        public int Stock { get; set; }
+        public float Prix { get; set; }
         public int CategorieID { get; set; }
         public Categorie Categorie { get; set; }
+        public int CommandeID { get; set; }
+        public Commande Commande { get; set; }
     }
 }

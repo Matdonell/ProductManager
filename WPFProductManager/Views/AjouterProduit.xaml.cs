@@ -17,9 +17,9 @@ namespace WPFProductManager.Views
     /// <summary>
     /// Logique d'interaction pour AddProduit.xaml
     /// </summary>
-    public partial class AddProduit : Window
+    public partial class AjoutProduit : Window
     {
-        public AddProduit()
+        public AjoutProduit()
         {
             InitializeComponent();
         }

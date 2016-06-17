@@ -1,24 +1,3 @@
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe.config
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.pdb
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csprojResolveAssemblyReference.cache
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\DetailProduit.baml
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\Operation.baml
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\MainWindow.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\DetailProduit.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\ListeProduit.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\Operation.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\App.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager_MarkupCompile.cache
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager_MarkupCompile.lref
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\MainWindow.baml
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\ListeProduit.baml
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.g.resources
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.Properties.Resources.resources
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.GenerateResource.Cache
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.exe
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.pdb
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe.config
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.exe
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.pdb
@@ -40,7 +19,59 @@ C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\Vie
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.g.resources
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.Properties.Resources.resources
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.GenerateResource.Cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe.config
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.exe
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\WPFProductManager.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.WPFProductManager.exe.config
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\DetailProduit.baml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\Operation.baml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\MainWindow.g.cs
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\AjouterProduit.g.cs
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\ModifierProduit.g.cs
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\DetailProduit.g.cs
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\ListeProduit.g.cs
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\Operation.g.cs
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\App.g.cs
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager_MarkupCompile.cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager_MarkupCompile.lref
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\MainWindow.baml
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\AjouterProduit.baml
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\ModifierProduit.baml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\Views\ListeProduit.baml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.g.resources
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.Properties.Resources.resources
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.GenerateResource.Cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.exe
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.pdb

@@ -24,7 +24,6 @@
                 </Grid.RowDefinitions>
                 <TextBlock FontSize="14" Height="19" VerticalAlignment="Top"><Run Text="Liste de"/><Run Text=" "/><Run Text="produits"/></TextBlock>
                 <my:ListeProduit Grid.Row="1" DataContext="{Binding ListeProduitViewModel}" Margin="0,0,-516,10"/>
-                <Button Grid.Column="3" Margin="5" Grid.Row="2" FontSize="12px" Command="{Binding AddOperation}">+</Button>
             </Grid>
 
         </Grid>

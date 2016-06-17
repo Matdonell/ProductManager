@@ -24,8 +24,12 @@ namespace Modele.ProductManager.Configurations
 
             Property(p => p.ID).HasColumnName("PRD_ID").IsRequired().HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             Property(p => p.Nom).HasColumnName("PRD_NOM").IsRequired().HasMaxLength(100);
+            Property(p => p.Status).HasColumnName("PRD_STATUS").IsRequired().HasMaxLength(100);
+            Property(p => p.Stock).HasColumnName("PRD_STOCK").IsRequired();
+            Property(p => p.Prix).HasColumnName("PRD_PRIX").IsRequired();
 
             HasRequired(p => p.Categorie).WithMany(c => c.Produits).HasForeignKey(p => p.CategorieID);
+            HasRequired(p => p.Commande).WithMany(c => c.Produits).HasForeignKey(p => p.CommandeID);
         }
     }
 }

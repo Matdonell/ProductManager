@@ -29,5 +29,10 @@ namespace WPFProductManager.Views
         {
 
         }
+
+        private void DetailProduit_Loaded_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

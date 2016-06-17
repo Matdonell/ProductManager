@@ -18,24 +18,24 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="45*" />
-            <ColumnDefinition Width="65*" />
-            <ColumnDefinition Width="79*" />
+            <ColumnDefinition Width="71*" />
+            <ColumnDefinition Width="124*" />
+            <ColumnDefinition Width="105*" />
         </Grid.ColumnDefinitions>
 
-        <Image Name="mPicture" Source="/Assets/default.png" Margin="17,10,10,5" MinWidth="100" Grid.Column="2" Grid.RowSpan="3"/>
+        <Image Name="mPicture" Source="/Assets/default.png" Margin="17,10,-12,5" MinWidth="100" Grid.Column="2" Grid.RowSpan="3"/>
 
-        <TextBlock Margin="18,15,7,12" VerticalAlignment="Center" RenderTransformOrigin="0.475,-0.001" Height="16" Text="Nom :"></TextBlock>
-        <TextBox Name="name" Grid.Column="1" Grid.Row="0" Height="30" VerticalAlignment="Center" Margin="20,8,17,5" Text="{Binding Nom, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+        <TextBlock Margin="18,14,7,10" VerticalAlignment="Center" RenderTransformOrigin="0.475,-0.001" Height="16" Text="Nom :"></TextBlock>
+        <TextBox Name="name" Grid.Column="1" Grid.Row="0" Height="30" VerticalAlignment="Center" Margin="20,6,17,4" Text="{Binding Nom, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
 
-        <TextBlock Grid.Row="1"   Margin="18,15,7,12" VerticalAlignment="Center" Height="16" Text="Référence :"/>
-        <TextBox Name="Reference" Grid.Column="1"  Grid.Row="1" Height="30" VerticalAlignment="Center" Margin="20,8,17,5" Text="{Binding Code, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+        <TextBlock Grid.Row="1"   Margin="18,14,7,10" VerticalAlignment="Center" Height="16" Text="Référence :"/>
+        <TextBox Name="Reference" Grid.Column="1"  Grid.Row="1" Height="30" VerticalAlignment="Center" Margin="20,6,17,4" Text="{Binding Code, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
 
-        <TextBlock Grid.Row="2" Margin="18,13,7,14" VerticalAlignment="Center" Height="16" Text="Statut :"/>
-        <TextBox Name="status" Grid.Column="1"  Grid.Row="2" Height="30" VerticalAlignment="Center" Margin="20,8,17,5" Text="{Binding Status, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
-        <TextBlock Grid.Row="3" Grid.Column="0"  Margin="18,13,122,14" VerticalAlignment="Center" Height="16" Text="Stock :" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Row="2" Margin="18,12,7,12" VerticalAlignment="Center" Height="16" Text="Statut :"/>
+        <TextBox Name="status" Grid.Column="1"  Grid.Row="2" Height="30" VerticalAlignment="Center" Margin="20,6,17,4" Text="{Binding Status, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+        <TextBlock Grid.Row="3" Grid.Column="0"  Margin="18,12,13,12" VerticalAlignment="Center" Height="16" Text="Stock :"/>
 
-        <TextBlock Grid.Row="3" Grid.Column="1"  Margin="119,17,134,10" VerticalAlignment="Center" Height="16" Text="Prix :" Grid.ColumnSpan="2"/>
+        <TextBlock Grid.Row="2" Grid.Column="2"  VerticalAlignment="Center" Height="16" Text="Prix :" Margin="40,39,15,25" Grid.RowSpan="2"/>
         <TextBox Name="stock"  Grid.Row="3" Margin="20,7,50,6" Grid.Column="1" Text="{Binding Stock, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
 
         <Grid Grid.Row="3" Grid.Column="2">
@@ -48,13 +48,19 @@
                 <ColumnDefinition Width="2*" />
             </Grid.ColumnDefinitions>
             <TextBlock Grid.Column="1"  Margin="8,14,9,10" VerticalAlignment="Center" Height="16" Text="euros" RenderTransformOrigin="0.5,0.5"/>
-            <TextBox Name="Number" Margin="0,10,0,3" RenderTransformOrigin="0.95,0.4" HorizontalAlignment="Right" Width="55" Text="{Binding Prix, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+            <TextBox Name="Number" Margin="0,20,40,0" RenderTransformOrigin="0.95,0.4" HorizontalAlignment="Right" Width="55" Text="{Binding Prix, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.ColumnSpan="2"/>
         </Grid>
-        <Button FontSize="12" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="10,9,10,6" Width="106" Content="Supprimer" Grid.Column="2"/>
+        <Button FontSize="12" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="17,10,10,5" Width="78" Command="{Binding AddOperation}" Content="Supprimer" Grid.Column="2"/>
+
+        <Button FontSize="12" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="39,10,24,5" Width="61" Command="{Binding AddProduct}" Content="Ajouter" RenderTransformOrigin="-1.344,0.5" Grid.Column="1"/>
+
         <ListBox Name="mListeBox_Club2" BorderBrush="Blue" Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="0" Margin="10,0"/>
 
-        <Button Command="{Binding AddOperation}" FontSize="12" Grid.Row="6" Grid.Column="1"  Grid.ColumnSpan="2" HorizontalAlignment="Center" 
-                VerticalAlignment="Center" Height="20" Margin="8,11,116,12" Width="164" Content="Supprimer les logs"/>
+        <Button Command="{Binding AddOperation}" FontSize="12" Grid.Row="4" HorizontalAlignment="Center" 
+                VerticalAlignment="Center" Height="20" Margin="20,10,3,5" Width="101" Content="Supprimer les logs" RenderTransformOrigin="0.671,0.65" Grid.Column="1"/>
+        <Button Command="{Binding AddOperation}" FontSize="12" Grid.Row="4" HorizontalAlignment="Center" 
+        	VerticalAlignment="Center" Height="20" Margin="2,10,2,5" Width="101" Content="Ajouter un log" RenderTransformOrigin="0.671,0.65" Grid.Column="2"/>
+
 
     </Grid>
 </UserControl>
