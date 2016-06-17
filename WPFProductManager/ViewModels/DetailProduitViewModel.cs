@@ -75,7 +75,7 @@ namespace WPFProductManager.ViewModels
         }
 
         /// <summary>
-        /// Nom du produit
+        /// Stock du produit
         /// </summary>
         public int Stock
         {
@@ -91,7 +91,7 @@ namespace WPFProductManager.ViewModels
         }
 
         /// <summary>
-        /// Nom du produit
+        /// Status du produit
         /// </summary>
         public string Status
         {
@@ -107,7 +107,7 @@ namespace WPFProductManager.ViewModels
         }
 
         /// <summary>
-        /// Nom du produit
+        /// Prix du produit
         /// </summary>
         public float Prix
         {

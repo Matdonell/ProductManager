@@ -50,17 +50,15 @@
             <TextBlock Grid.Column="1"  Margin="8,14,9,10" VerticalAlignment="Center" Height="16" Text="euros" RenderTransformOrigin="0.5,0.5"/>
             <TextBox Name="Number" Margin="0,20,40,0" RenderTransformOrigin="0.95,0.4" HorizontalAlignment="Right" Width="55" Text="{Binding Prix, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Grid.ColumnSpan="2"/>
         </Grid>
-        <Button FontSize="12" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="17,10,10,5" Width="78" Command="{Binding AddOperation}" Content="Supprimer" Grid.Column="2"/>
-
-        <Button FontSize="12" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="39,10,24,5" Width="61" Command="{Binding AddProduct}" Content="Ajouter" RenderTransformOrigin="-1.344,0.5" Grid.Column="1"/>
-
         <ListBox Name="mListeBox_Club2" BorderBrush="Blue" Grid.Row="5" Grid.ColumnSpan="3" Grid.Column="0" Margin="10,0"/>
 
         <Button Command="{Binding AddOperation}" FontSize="12" Grid.Row="4" HorizontalAlignment="Center" 
-                VerticalAlignment="Center" Height="20" Margin="20,10,3,5" Width="101" Content="Supprimer les logs" RenderTransformOrigin="0.671,0.65" Grid.Column="1"/>
+                VerticalAlignment="Center" Height="20" Margin="6,10,10,5" Width="108" Content="Supprimer les logs" RenderTransformOrigin="0.671,0.65" Grid.Column="1"/>
         <Button Command="{Binding AddOperation}" FontSize="12" Grid.Row="4" HorizontalAlignment="Center" 
         	VerticalAlignment="Center" Height="20" Margin="2,10,2,5" Width="101" Content="Ajouter un log" RenderTransformOrigin="0.671,0.65" Grid.Column="2"/>
+        <Button FontSize="12" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="17,10,10,5" Width="78" Command="{Binding AddOperation}" Content="Supprimer" Grid.Column="2"/>
 
+        <Button FontSize="12" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Height="20" Margin="39,10,24,5" Width="61" Command="{Binding AddProduct}" Content="Ajouter" RenderTransformOrigin="-1.344,0.5" Grid.Column="1"/>
 
     </Grid>
 </UserControl>

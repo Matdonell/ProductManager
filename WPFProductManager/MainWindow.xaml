@@ -6,7 +6,8 @@
         xmlns:my="clr-namespace:WPFProductManager.Views"
         Title="Product Manager" Height="500" Width="600" MinWidth="800" MinHeight="430" >
     <DockPanel>
-        <StackPanel DockPanel.Dock="Top" Height="25" Background="CadetBlue">
+        
+        <StackPanel DockPanel.Dock="Top" Height="25" Background="DarkBlue">
             <TextBlock FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Beige" Text="Fiche produit"/>
         </StackPanel>
 

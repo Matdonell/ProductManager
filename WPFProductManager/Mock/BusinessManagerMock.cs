@@ -43,6 +43,9 @@ namespace WPFProductManager.Mock
             produits.Add(new Produit { Code = "2ER45", Nom = "Huile d'olive végétale" , Stock=10, Status= "TestStatus", Prix=50.2F });
             produits.Add(new Produit { Code = "3ZZ21", Nom = "Magrets de canard" , Stock=120, Status= "TestStatus", Prix=85.5F});
             produits.Add(new Produit { Code = "45WXB", Nom = "Terrine de truite", Stock=25, Status="TestStatus",Prix=120.2F });
+            produits.Add(new Produit { Code = "2E525", Nom = "Moutarde", Stock = 10, Status = "TestStatus", Prix = 50.2F });
+            produits.Add(new Produit { Code = "52221", Nom = "Patte carbonora", Stock = 120, Status = "TestStatus", Prix = 85.5F });
+            produits.Add(new Produit { Code = "4577B", Nom = "Epinards", Stock = 25, Status = "TestStatus", Prix = 120.2F });
             return produits;
         }
     }
