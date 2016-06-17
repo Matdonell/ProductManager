@@ -67,11 +67,17 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Views\AjouterProduit.xaml.cs">
+      <DependentUpon>AjouterProduit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\DetailProduit.xaml.cs">
       <DependentUpon>DetailProduit.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ListeProduit.xaml.cs">
       <DependentUpon>ListeProduit.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModifierProduit.xaml.cs">
+      <DependentUpon>ModifierProduit.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Operation.xaml.cs">
       <DependentUpon>Operation.xaml</DependentUpon>
@@ -111,11 +117,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\AjouterProduit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\DetailProduit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ListeProduit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ModifierProduit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\App.xaml
-4-1522688684
+6-1912751078
 
-191924320126
+21-2033372546
 13738642453
-MainWindow.xaml;Views\DetailProduit.xaml;Views\ListeProduit.xaml;Views\Operation.xaml;
+MainWindow.xaml;Views\AjouterProduit.xaml;Views\DetailProduit.xaml;Views\ListeProduit.xaml;Views\ModifierProduit.xaml;Views\Operation.xaml;
 
 False
 
