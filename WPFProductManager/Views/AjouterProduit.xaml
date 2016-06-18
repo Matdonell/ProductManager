@@ -29,7 +29,7 @@
             <TextBlock Grid.Row="2" Grid.Column="0" Text="Status :" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,10,33,12" Height="16" Width="70" />
             <TextBlock Grid.Row="3" Grid.Column="0" Text="Prix : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,13,50,10"  Height="16" Width="53"/>
             <TextBlock Grid.Row="4" Grid.Column="0" Text="Stock : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,10,52,12" Height="16" Width="51"/>
-            <TextBlock Grid.Row="4" Grid.Column="1" Text="Euros (€) : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,15,37,8" Height="16" Width="53"/>
+            <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,30,22,28" Height="16" Width="53"><Run Text="Euros (€)"/><LineBreak/><Run Text=" "/></TextBlock>
 
             <TextBox Name="Nom" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="4,17,47,18" Height="18"/>
             <TextBox Name="Reference" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="4,17,47,18" Height="18"/>
