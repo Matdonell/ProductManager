@@ -118,3 +118,5 @@ C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPF
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.csproj.GenerateResource.Cache
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.exe
 C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\WPFProductManager.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\bin\Debug\EntityFramework.SqlServer.xml
