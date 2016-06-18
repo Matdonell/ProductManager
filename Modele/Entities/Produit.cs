@@ -1,5 +1,4 @@
-﻿using Modele.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,5 +20,6 @@ namespace Modele.ProductManager.Entities
         public Categorie Categorie { get; set; }
         public int CommandeID { get; set; }
         public Commande Commande { get; set; }
+        public virtual ICollection<LogProduit> LogProduits { get; set; }
     }
 }

@@ -45,6 +45,9 @@ namespace BusinessLayer.ProductManager.Commands
             if (upPrd != null)
             {
                 upPrd.Nom = p.Nom;
+                upPrd.Prix = p.Prix;
+                upPrd.Status = p.Status;
+                upPrd.Stock = p.Stock;
                 upPrd.CategorieID = p.CategorieID;
             }
             _contexte.SaveChanges();

@@ -49,5 +49,21 @@ namespace Modele.ProductManager
         /// Mes Catégories
         /// </summary>
         public DbSet<Categorie> Categories { get; set; }
+
+        /// <summary>
+        /// Mes Clients
+        /// </summary>
+        public DbSet<Client> Clients { get; set; }
+
+        /// <summary>
+        /// Mes LogProduits
+        /// </summary>
+        public DbSet<LogProduit> LogProduits { get; set; }
+
+        /// <summary>
+        /// Mes Commandes
+        /// </summary>
+        public DbSet<Commande> Commandes { get; set; }
+
     }
 }

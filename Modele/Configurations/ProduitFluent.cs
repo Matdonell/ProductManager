@@ -30,6 +30,7 @@ namespace Modele.ProductManager.Configurations
 
             HasRequired(p => p.Categorie).WithMany(c => c.Produits).HasForeignKey(p => p.CategorieID);
             HasRequired(p => p.Commande).WithMany(c => c.Produits).HasForeignKey(p => p.CommandeID);
+
         }
     }
 }

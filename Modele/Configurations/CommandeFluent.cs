@@ -1,4 +1,4 @@
-﻿using Modele.Entities;
+﻿using Modele.ProductManager.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modele.Configurations
+namespace Modele.ProductManager.Configurations
 {
     /// <summary>
     /// Configuration Fluent d'une Commande
