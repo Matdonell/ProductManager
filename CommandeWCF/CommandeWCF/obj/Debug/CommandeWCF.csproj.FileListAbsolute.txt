@@ -1,1 +1,5 @@
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\obj\Debug\CommandeWCF.csprojResolveAssemblyReference.cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\CommandeWCF.dll.config
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\CommandeWCF.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\CommandeWCF.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\obj\Debug\CommandeWCF.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\obj\Debug\CommandeWCF.pdb
