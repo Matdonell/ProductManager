@@ -221,7 +221,6 @@ namespace WPFProductManager.ViewModels
             }
         }
 
-
         /// <summary>
         /// Ajoute l'operation puis ferme la fenetre operation
         /// </summary>
@@ -327,6 +326,7 @@ namespace WPFProductManager.ViewModels
                 MessageBoxButton.YesNo);
             if (messageBoxResult == MessageBoxResult.Yes)
             {
+           
                 /// TODO - code remove listview product
             }
                 
@@ -343,7 +343,7 @@ namespace WPFProductManager.ViewModels
                 MessageBoxButton.YesNo);
             if (messageBoxResult == MessageBoxResult.Yes)
             {
-
+               
                 /// TODO - code remove listview logs product
             }
 

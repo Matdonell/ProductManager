@@ -138,6 +138,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\IndexProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -162,7 +163,16 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.ProductManager.csproj">
+      <Project>{d8538a89-2665-405e-8d9f-a1ca46d2de5e}</Project>
+      <Name>BusinessLayer.ProductManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modele\Modele.ProductManager.csproj">
+      <Project>{638CFEBE-87DC-41B2-89CA-2ACB95D5CD27}</Project>
+      <Name>Modele.ProductManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
