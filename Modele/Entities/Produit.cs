@@ -12,6 +12,7 @@ namespace Modele.ProductManager.Entities
     public class Produit
     {
         public int ID { get; set; }
+        public string Code { get; set; }
         public string Nom { get; set; }
         public string Status { get; set; }
         public int Stock { get; set; }

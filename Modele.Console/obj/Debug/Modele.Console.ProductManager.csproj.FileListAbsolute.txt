@@ -14,3 +14,19 @@ C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Conso
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\obj\Debug\Modele.Console.ProductManager.csprojResolveAssemblyReference.cache
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\obj\Debug\Modele.Console.exe
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele.Console\obj\Debug\Modele.Console.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Database.mdf
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Database_log.ldf
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Modele.Console.exe.config
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Modele.Console.exe
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Modele.Console.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\BusinessLayer.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\EntityFramework.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Modele.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\BusinessLayer.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\Modele.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\EntityFramework.xml
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\obj\Debug\Modele.Console.ProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\obj\Debug\Modele.Console.exe
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Console\obj\Debug\Modele.Console.pdb

@@ -134,7 +134,16 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.ProductManager.csproj">
+      <Project>{d8538a89-2665-405e-8d9f-a1ca46d2de5e}</Project>
+      <Name>BusinessLayer.ProductManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modele\Modele.ProductManager.csproj">
+      <Project>{638cfebe-87dc-41b2-89ca-2acb95d5cd27}</Project>
+      <Name>Modele.ProductManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\default.png" />
   </ItemGroup>

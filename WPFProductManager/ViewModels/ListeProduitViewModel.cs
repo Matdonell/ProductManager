@@ -1,10 +1,11 @@
-﻿using System;
+﻿using BusinessLayer.ProductManager;
+using Modele.ProductManager.Entities;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WPFProductManager.Mock;
 using WPFProductManager.ViewModels.Common;
 
 namespace WPFProductManager.ViewModels
@@ -31,7 +32,7 @@ namespace WPFProductManager.ViewModels
         {
             // on appelle le mock pour initialiser une liste de produits
             _produits = new ObservableCollection<DetailProduitViewModel>();
-            foreach (Produit p in BusinessManagerMock.Instance.GetAllProduit())
+            foreach (Produit p in BusinessManager.Instance.GetAllProduit())
             {
                 _produits.Add(new DetailProduitViewModel(p));
             }

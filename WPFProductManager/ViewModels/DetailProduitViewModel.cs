@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Modele.ProductManager.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using WPFProductManager.Mock;
 using WPFProductManager.ViewModels.Common;
 
 namespace WPFProductManager.ViewModels
@@ -22,7 +22,7 @@ namespace WPFProductManager.ViewModels
         private string _status;
         private float _prix;
         private int _stock;
-        private List<Log> _logs;
+        private List<LogProduit> _logs;
 
 
         private Views.AjoutProduit _addProductWindow;
@@ -50,7 +50,7 @@ namespace WPFProductManager.ViewModels
             _stock = p.Stock;
             _status = p.Status;
             _prix = p.Prix;
-            _logs = p.Logs;
+            _logs = p.LogProduits.ToList();
         }
 
         #endregion
@@ -137,7 +137,7 @@ namespace WPFProductManager.ViewModels
         /// <summary>
         /// List de logs du produit
         /// </summary>
-        public List<Log> Logs
+        public List<LogProduit> Logs
         {
             get
             {
