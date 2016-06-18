@@ -22,9 +22,9 @@
 
 
 
-            <Button Name="addProduct" Content="Ajouter" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
+            <Button Command="{Binding ActionAddOperation}" Name="addProduct" Content="Ajouter" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
                     Padding="4" Grid.Column="1" Margin="51,6,56,7" Height="26" Width="50" />
-            <Button Name="cancelAddProduct" Content="Annuler" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"
+            <Button Command="{Binding CloseOperationWindow}" Name="cancelAddProduct" Content="Annuler" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"
                     Padding="4"  Margin="86,15,82,18" Height="24" Width="59"/>
         </Grid>
     </DockPanel>

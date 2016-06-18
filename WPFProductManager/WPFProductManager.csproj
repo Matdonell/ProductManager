@@ -60,6 +60,7 @@
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Mock\Log.cs" />
     <Compile Include="ViewModels\Common\BaseViewModel.cs" />
     <Compile Include="ViewModels\Common\RelayCommand.cs" />
     <Compile Include="ViewModels\DetailProduitViewModel.cs" />

@@ -16,5 +16,6 @@ namespace WPFProductManager.Mock
         public string Status { get; set; }
         public int Stock { get; set; }
         public float Prix { get; set; }
+        public List<Log> Logs { get; set;}
     }
 }

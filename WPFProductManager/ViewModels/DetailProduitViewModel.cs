@@ -22,8 +22,18 @@ namespace WPFProductManager.ViewModels
         private string _status;
         private float _prix;
         private int _stock;
-        private RelayCommand _addOperation;
-        private RelayCommand _addProduct;
+        private List<Log> _logs;
+
+
+        private Views.AjoutProduit _addProductWindow;
+        private Views.Operation _operationWindow;
+
+        private RelayCommand _openOperation;
+        private RelayCommand _openProduct;
+        private RelayCommand _buttonAddProduct;
+        private RelayCommand _actionAddOperation;
+        private RelayCommand _closeOperationWindow;
+        private RelayCommand _closeAddProductWindow;
 
         #endregion
 
@@ -40,6 +50,7 @@ namespace WPFProductManager.ViewModels
             _stock = p.Stock;
             _status = p.Status;
             _prix = p.Prix;
+            _logs = p.Logs;
         }
 
         #endregion
@@ -122,57 +133,162 @@ namespace WPFProductManager.ViewModels
             }
         }
 
+
+        /// <summary>
+        /// List de logs du produit
+        /// </summary>
+        public List<Log> Logs
+        {
+            get
+            {
+                return _logs;
+            }
+            set
+            {
+                _logs = value;
+                OnPropertyChanged("Logs");
+            }
+        }
+
         #endregion
 
         #region Commandes
 
         /// <summary>
-        /// Commande pour ouvrir la fenêtre pour ajouter une opération
+        /// Commande pour ouvrir la fenêtre pour ajouter un log
         /// </summary>
-        public ICommand AddOperation
+        public ICommand OpenOperation
         {
             get
             {
-                if (_addOperation == null)
-                    _addOperation = new RelayCommand(() => this.ShowWindowOperation());
-                return _addOperation;
+                if (_openOperation == null)
+                    _openOperation = new RelayCommand(() => this.ShowWindowOperation());
+                return _openOperation;
             }
         }
 
         /// <summary>
         /// Commande pour ouvrir la fenêtre pour ajouter un produit
         /// </summary>
-        public ICommand AddProduct
+        public ICommand OpenProduct
         {
             get
             {
-                if (_addProduct == null)
-                    _addProduct = new RelayCommand(() => this.ShowWindowAddProduct());
-                return _addProduct;
+                if (_openProduct == null)
+                    _openProduct = new RelayCommand(() => this.ShowAddProductWindow());
+                return _openProduct;
             }
         }
- 
+
+        /// <summary>
+        /// Commande pour traiter l'ajout d'un produit
+        /// </summary>
+        public ICommand ActionAddProduct
+        {
+            get
+            {
+                if (_buttonAddProduct == null)
+                    _buttonAddProduct = new RelayCommand(() => this.AddProductButton());
+                return _buttonAddProduct;
+            }
+        }
+
+        /// <summary>
+        /// Ferme la fenetre d'ajout d'un produit
+        /// </summary>
+        public ICommand ActionCloseAddProductWindow
+        {
+            get
+            {
+                if (_closeAddProductWindow == null)
+                    _closeAddProductWindow = new RelayCommand(() => this.CloseAddProductWindow());
+                return _closeAddProductWindow;
+            }
+        }
+
+        /// <summary>
+        /// Ferme la fenetre d'ajout d'une operation
+        /// </summary>
+        public ICommand CloseOperationWindow
+        {
+            get
+            {
+                if (_closeOperationWindow == null)
+                    _closeOperationWindow = new RelayCommand(() => this.CloseAddOperationWindow());
+                return _closeOperationWindow;
+            }
+        }
+
+
+        /// <summary>
+        /// Ajoute l'operation puis ferme la fenetre operation
+        /// </summary>
+        public ICommand ActionAddOperation
+        {
+            get
+            {
+                if (_actionAddOperation == null)
+                    _actionAddOperation = new RelayCommand(() => this.AddOperationButton());
+                return _actionAddOperation;
+            }
+        }
+
+
+
+
         /// <summary>
         /// Permet l'ouverture de la fenêtre
         /// </summary>
         private void ShowWindowOperation()
         {
-            Views.Operation operationWindow = new Views.Operation();
-            operationWindow.DataContext = this;
-            operationWindow.ShowDialog();
+            _operationWindow = new Views.Operation();
+            _operationWindow.DataContext = this;
+            _operationWindow.ShowDialog();
         }
 
 
         /// <summary>
         /// Permet l'ouverture de la fenêtre d'ajout d'un produit
         /// </summary>
-        private void ShowWindowAddProduct()
+        private void ShowAddProductWindow()
         {
-            Views.AjoutProduit addProductWindows = new Views.AjoutProduit();
-            addProductWindows.DataContext = this;
-            addProductWindows.ShowDialog();
+            _addProductWindow = new Views.AjoutProduit();
+            _addProductWindow.DataContext = this;
+            _addProductWindow.ShowDialog();
         }
 
+        /// <summary>
+        /// Permet de fermer la fenetre d'ajout d'un produit
+        /// </summary>
+        private void CloseAddProductWindow()
+        {
+            _addProductWindow.Close();
+        }
+
+        /// <summary>
+        /// Permet de fermer la fenetre d'ajout d'un produit
+        /// </summary>
+        private void CloseAddOperationWindow()
+        {
+            _operationWindow.Close();
+        }
+
+        /// <summary>
+        /// Ajoute un produit a la liste view model
+        /// </summary>
+        private void AddProductButton()
+        {
+            this.CloseAddProductWindow();
+        }
+
+
+        /// <summary>
+        /// Ajoute un produit a la liste view model
+        /// </summary>
+        private void AddOperationButton()
+        {
+            this.CloseAddOperationWindow();
+        }
 
         #endregion
     }

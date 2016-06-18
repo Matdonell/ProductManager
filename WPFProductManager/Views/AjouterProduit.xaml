@@ -37,9 +37,9 @@
             <TextBox Name="Price" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="10,13,101,8" Height="18"/>
             <TextBox Name="Stock" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="10,10,102,10" Height="18"/>
 
-            <Button Name="addProduct" Content="Ajouter" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
+            <Button Command="{Binding ActionAddProduct}" Name="addProduct" Content="Ajouter" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
                     Padding="4" Grid.Column="1" Margin="51,6,56,7" Height="26" Width="50" />
-            <Button Name="cancelAddProduct" Content="Annuler" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
+            <Button Command="{Binding ActionCloseAddProductWindow}" Name="cancelAddProduct" Content="Annuler" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
                     Padding="4"  Margin="40,6,45,9" Height="24" Width="50"/>
         </Grid>
     </DockPanel>
