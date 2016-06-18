@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Modele.ProductManager.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using WPFProductManager.Mock;
+using System.Windows;
 using WPFProductManager.ViewModels.Common;
 
 namespace WPFProductManager.ViewModels
@@ -22,18 +23,19 @@ namespace WPFProductManager.ViewModels
         private string _status;
         private float _prix;
         private int _stock;
-        private List<Log> _logs;
-
+        private List<LogProduit> _logs;
 
         private Views.AjoutProduit _addProductWindow;
         private Views.Operation _operationWindow;
 
-        private RelayCommand _openOperation;
-        private RelayCommand _openProduct;
-        private RelayCommand _buttonAddProduct;
+        private RelayCommand _commandOpenOperationWindow;
+        private RelayCommand _commandOpenAddProductWindow;
+        private RelayCommand _commandAddProduct;
         private RelayCommand _actionAddOperation;
         private RelayCommand _closeOperationWindow;
-        private RelayCommand _closeAddProductWindow;
+        private RelayCommand _commandcloseAddProductWindow;
+        private RelayCommand _commandRemoveProduct;
+        private RelayCommand _commandRemoveAllLogsProduct;
 
         #endregion
 
@@ -50,7 +52,7 @@ namespace WPFProductManager.ViewModels
             _stock = p.Stock;
             _status = p.Status;
             _prix = p.Prix;
-            _logs = p.Logs;
+            _logs = p.LogProduits.ToList();
         }
 
         #endregion
@@ -137,7 +139,7 @@ namespace WPFProductManager.ViewModels
         /// <summary>
         /// List de logs du produit
         /// </summary>
-        public List<Log> Logs
+        public List<LogProduit> Logs
         {
             get
             {
@@ -157,52 +159,52 @@ namespace WPFProductManager.ViewModels
         /// <summary>
         /// Commande pour ouvrir la fenêtre pour ajouter un log
         /// </summary>
-        public ICommand OpenOperation
+        public ICommand CommandOpenOperationWindow
         {
             get
             {
-                if (_openOperation == null)
-                    _openOperation = new RelayCommand(() => this.ShowWindowOperation());
-                return _openOperation;
+                if (_commandOpenOperationWindow == null)
+                    _commandOpenOperationWindow = new RelayCommand(() => this.ShowWindowOperation());
+                return _commandOpenOperationWindow;
             }
         }
 
         /// <summary>
         /// Commande pour ouvrir la fenêtre pour ajouter un produit
         /// </summary>
-        public ICommand OpenProduct
+        public ICommand CommandOpenAddProductWindow
         {
             get
             {
-                if (_openProduct == null)
-                    _openProduct = new RelayCommand(() => this.ShowAddProductWindow());
-                return _openProduct;
+                if (_commandOpenAddProductWindow == null)
+                    _commandOpenAddProductWindow = new RelayCommand(() => this.ShowAddProductWindow());
+                return _commandOpenAddProductWindow;
             }
         }
 
         /// <summary>
         /// Commande pour traiter l'ajout d'un produit
         /// </summary>
-        public ICommand ActionAddProduct
+        public ICommand CommandAddProduct
         {
             get
             {
-                if (_buttonAddProduct == null)
-                    _buttonAddProduct = new RelayCommand(() => this.AddProductButton());
-                return _buttonAddProduct;
+                if (_commandAddProduct == null)
+                    _commandAddProduct = new RelayCommand(() => this.AddProduct());
+                return _commandAddProduct;
             }
         }
 
         /// <summary>
         /// Ferme la fenetre d'ajout d'un produit
         /// </summary>
-        public ICommand ActionCloseAddProductWindow
+        public ICommand CommandCloseAddProductWindow
         {
             get
             {
-                if (_closeAddProductWindow == null)
-                    _closeAddProductWindow = new RelayCommand(() => this.CloseAddProductWindow());
-                return _closeAddProductWindow;
+                if (_commandcloseAddProductWindow == null)
+                    _commandcloseAddProductWindow = new RelayCommand(() => this.CloseAddProductWindow());
+                return _commandcloseAddProductWindow;
             }
         }
 
@@ -233,7 +235,31 @@ namespace WPFProductManager.ViewModels
             }
         }
 
+        /// <summary>
+        /// Supprime un produit de la liste
+        /// </summary>
+        public ICommand CommandRemoveProduct
+        {
+            get
+            {
+                if (_commandRemoveProduct == null)
+                    _commandRemoveProduct = new RelayCommand(() => this.RemoveProduct());
+                return _commandRemoveProduct;
+            }
+        }
 
+        /// <summary>
+        /// Supprime les logs d'un produit
+        /// </summary>
+        public ICommand CommandRemoveAllLogsProduct
+        {
+            get
+            {
+                if (_commandRemoveAllLogsProduct == null)
+                    _commandRemoveAllLogsProduct = new RelayCommand(() => this.RemoveAllLogsProduct());
+                return _commandRemoveAllLogsProduct;
+            }
+        }
 
 
         /// <summary>
@@ -276,7 +302,7 @@ namespace WPFProductManager.ViewModels
         /// <summary>
         /// Ajoute un produit a la liste view model
         /// </summary>
-        private void AddProductButton()
+        private void AddProduct()
         {
             this.CloseAddProductWindow();
         }
@@ -288,6 +314,39 @@ namespace WPFProductManager.ViewModels
         private void AddOperationButton()
         {
             this.CloseAddOperationWindow();
+        }
+
+        /// <summary>
+        /// Supprime un produit de la liste
+        /// </summary>
+        private void RemoveProduct()
+        {
+            MessageBoxResult messageBoxResult = MessageBox.Show(
+                "Etes-vous certain de vouloir supprimer ce produit ?", 
+                "Confirmation de suppression d'un produit", 
+                MessageBoxButton.YesNo);
+            if (messageBoxResult == MessageBoxResult.Yes)
+            {
+                /// TODO - code remove listview product
+            }
+                
+        }
+
+        /// <summary>
+        /// Supprime les logs d'un produit
+        /// </summary>
+        private void RemoveAllLogsProduct()
+        {
+            MessageBoxResult messageBoxResult = MessageBox.Show(
+                "Etes-vous certain de vouloir supprimer les logs de ce produit ?",
+                "Confirmation de suppression des logs",
+                MessageBoxButton.YesNo);
+            if (messageBoxResult == MessageBoxResult.Yes)
+            {
+
+                /// TODO - code remove listview logs product
+            }
+
         }
 
         #endregion

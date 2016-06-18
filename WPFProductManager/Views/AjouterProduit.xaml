@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFProductManager.Views"
         mc:Ignorable="d"
-        Title="Ajouter un produit"  Height="500" Width="500" MinWidth="400" MinHeight="400">
+        Title="Ajouter un produit"  Height="600" Width="600" MinWidth="600" MinHeight="600">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Height="25" Background="DarkBlue">
             <TextBlock FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Beige" Text="Ajouter un produit"/>
@@ -24,23 +24,23 @@
                 <ColumnDefinition Width="157*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Nom : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,10,67,12" Height="16" Width="36"/>
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="Rérérence : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,12,32,11" Height="16" Width="71"/>
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Status :" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,10,33,12" Height="16" Width="70" />
-            <TextBlock Grid.Row="3" Grid.Column="0" Text="Prix : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,13,50,10"  Height="16" Width="53"/>
-            <TextBlock Grid.Row="4" Grid.Column="0" Text="Stock : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,10,52,12" Height="16" Width="51"/>
-            <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,30,22,28" Height="16" Width="53"><Run Text="Euros (€)"/><LineBreak/><Run Text=" "/></TextBlock>
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Nom : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,28,87,10" Height="36" Width="60"/>
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Rérérence : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,30,77,10" Height="34" Width="70"/>
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Status :" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,26,77,22" Height="26" Width="70" RenderTransformOrigin="-0.129,0.562" />
+            <TextBlock Grid.Row="3" Grid.Column="0" Text="Prix : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,18,87,27"  Height="29" Width="60"/>
+            <TextBlock Grid.Row="4" Grid.Column="0" Text="Stock : " HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,28,77,10" Height="36" Width="70"/>
+            <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,18,22,27" Height="29" Width="53"><Run Text="Euros (€)"/><LineBreak/><Run Text=" "/></TextBlock>
 
-            <TextBox Name="Nom" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="4,17,47,18" Height="18"/>
-            <TextBox Name="Reference" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="4,17,47,18" Height="18"/>
-            <TextBox Name="Status" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="4,18,47,17" Height="17"/>
-            <TextBox Name="Price" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="10,13,101,8" Height="18"/>
-            <TextBox Name="Stock" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="10,10,102,10" Height="18"/>
+            <TextBox Name="Nom" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="14,15,37,30" Height="29"/>
+            <TextBox Name="Reference" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="14,18,37,28" Height="28"/>
+            <TextBox Name="Status" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="14,26,33,22" Height="26"/>
+            <TextBox Name="Price" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="15,17,80,27" Height="30"/>
+            <TextBox Name="Stock" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="14,28,81,20" Height="26"/>
 
-            <Button Command="{Binding ActionAddProduct}" Name="addProduct" Content="Ajouter" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
-                    Padding="4" Grid.Column="1" Margin="51,6,56,7" Height="26" Width="50" />
-            <Button Command="{Binding ActionCloseAddProductWindow}" Name="cancelAddProduct" Content="Annuler" Grid.Row="6" VerticalAlignment="Center" HorizontalAlignment="Center"
-                    Padding="4"  Margin="40,6,45,9" Height="24" Width="50"/>
+            <Button Command="{Binding CommandAddProduct}" Name="addProduct" Content="Ajouter" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Padding="4" Margin="88,18,85,21" Height="35" Width="92" Grid.Column="1" />
+            <Button Command="{Binding CommandCloseAddProductWindow}" Name="cancelAddProduct" Content="Annuler" Grid.Row="5" VerticalAlignment="Center" HorizontalAlignment="Center"
+                    Padding="4"  Margin="69,18,67,18" Height="38" Width="91"/>
         </Grid>
     </DockPanel>
 </Window>

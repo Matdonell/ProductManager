@@ -28,14 +28,8 @@ namespace BusinessLayer.ProductManager.Commands
         /// <returns>Identifiant du produit ajouté</returns>
         public int Ajouter(Client cl)
         {
-            try {
-                _contexte.Clients.Add(cl);
-                return _contexte.SaveChanges();
-            }catch(Exception e)
-            {
-                Console.WriteLine(e.InnerException);
-            }
-            return 1;
+            _contexte.Clients.Add(cl);
+            return _contexte.SaveChanges();
         }
 
         /// <summary>

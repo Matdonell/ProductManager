@@ -23,13 +23,14 @@ namespace Modele.ProductManager.Configurations
             HasKey(p => p.ID);
 
             Property(p => p.ID).HasColumnName("PRD_ID").IsRequired().HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            Property(p => p.Code).HasColumnName("PRD_CODE").IsRequired().HasMaxLength(100);
             Property(p => p.Nom).HasColumnName("PRD_NOM").IsRequired().HasMaxLength(100);
             Property(p => p.Status).HasColumnName("PRD_STATUS").IsRequired().HasMaxLength(100);
             Property(p => p.Stock).HasColumnName("PRD_STOCK").IsRequired();
             Property(p => p.Prix).HasColumnName("PRD_PRIX").IsRequired();
 
             HasRequired(p => p.Categorie).WithMany(c => c.Produits).HasForeignKey(p => p.CategorieID);
-            HasOptional(p => p.Commande).WithMany(c => c.Produits).HasForeignKey(p => p.CommandeID);
+            HasRequired(p => p.Commande).WithMany(c => c.Produits).HasForeignKey(p => p.CommandeID);
 
         }
     }

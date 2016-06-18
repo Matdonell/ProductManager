@@ -32,7 +32,7 @@ namespace BusinessLayer.ProductManager.Commands
         public int Ajouter(Produit p)
         {
             _contexte.Produits.Add(p);
-            return _contexte.SaveChanges(); 
+            return _contexte.SaveChanges();
         }
 
         /// <summary>
@@ -44,6 +44,7 @@ namespace BusinessLayer.ProductManager.Commands
             Produit upPrd = _contexte.Produits.Where(prd => prd.ID == p.ID).FirstOrDefault();
             if (upPrd != null)
             {
+                upPrd.Code = p.Code;
                 upPrd.Nom = p.Nom;
                 upPrd.Prix = p.Prix;
                 upPrd.Status = p.Status;
