@@ -12,3 +12,17 @@ C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLaye
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.ProductManager.csprojResolveAssemblyReference.cache
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Travail\BusinessLayer\bin\Debug\Database.mdf
+C:\Travail\BusinessLayer\bin\Debug\Database_log.ldf
+C:\Travail\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Travail\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Travail\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Travail\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Travail\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Travail\BusinessLayer\bin\Debug\Modele.dll
+C:\Travail\BusinessLayer\bin\Debug\Modele.pdb
+C:\Travail\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Travail\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\BusinessLayer\obj\Debug\BusinessLayer.ProductManager.csprojResolveAssemblyReference.cache
+C:\Travail\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Travail\BusinessLayer\obj\Debug\BusinessLayer.pdb

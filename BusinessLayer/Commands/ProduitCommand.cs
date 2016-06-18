@@ -32,7 +32,7 @@ namespace BusinessLayer.ProductManager.Commands
         public int Ajouter(Produit p)
         {
             _contexte.Produits.Add(p);
-            return _contexte.SaveChanges();
+            return _contexte.SaveChanges(); 
         }
 
         /// <summary>

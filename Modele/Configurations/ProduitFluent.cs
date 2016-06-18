@@ -29,7 +29,7 @@ namespace Modele.ProductManager.Configurations
             Property(p => p.Prix).HasColumnName("PRD_PRIX").IsRequired();
 
             HasRequired(p => p.Categorie).WithMany(c => c.Produits).HasForeignKey(p => p.CategorieID);
-            HasRequired(p => p.Commande).WithMany(c => c.Produits).HasForeignKey(p => p.CommandeID);
+            HasOptional(p => p.Commande).WithMany(c => c.Produits).HasForeignKey(p => p.CommandeID);
 
         }
     }

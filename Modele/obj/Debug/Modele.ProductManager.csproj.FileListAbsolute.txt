@@ -12,3 +12,16 @@ C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\D
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.ProductManager.csprojResolveAssemblyReference.cache
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.pdb
+C:\Travail\Modele\bin\Debug\Database.mdf
+C:\Travail\Modele\bin\Debug\Database_log.ldf
+C:\Travail\Modele\bin\Debug\Modele.dll.config
+C:\Travail\Modele\bin\Debug\Modele.dll
+C:\Travail\Modele\bin\Debug\Modele.pdb
+C:\Travail\Modele\bin\Debug\EntityFramework.dll
+C:\Travail\Modele\bin\Debug\EntityFramework.SqlServer.dll
+C:\Travail\Modele\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Travail\Modele\bin\Debug\EntityFramework.xml
+C:\Travail\Modele\bin\Debug\EntityFramework.SqlServer.xml
+C:\Travail\Modele\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Travail\Modele\obj\Debug\Modele.dll
+C:\Travail\Modele\obj\Debug\Modele.pdb

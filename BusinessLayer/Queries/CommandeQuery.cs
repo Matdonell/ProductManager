@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BusinessLayer.Queries
+namespace BusinessLayer.ProductManager.Queries
 {
     /// <summary>
     /// QUERY pour récupérer des entités de types Commande

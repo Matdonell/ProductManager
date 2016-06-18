@@ -22,9 +22,9 @@ namespace Modele.ProductManager.Initialisation
         {
             IList<Categorie> defaultCategories = new List<Categorie>();
 
+            defaultCategories.Add(new Categorie() { Libelle = "Informatique" });
             defaultCategories.Add(new Categorie() { Libelle = "Charcuterie" });
-            defaultCategories.Add(new Categorie() { Libelle = "Produits laitiers" });
-            defaultCategories.Add(new Categorie() { Libelle = "Liquides" });
+            defaultCategories.Add(new Categorie() { Libelle = "Boulangerie" });
 
             foreach (Categorie categ in defaultCategories)
                 context.Categories.Add(categ);

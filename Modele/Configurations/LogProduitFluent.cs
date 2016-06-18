@@ -26,7 +26,7 @@ namespace Modele.ProductManager.Configurations
             Property(p => p.Date).HasColumnName("PRD_DATE").IsRequired().HasMaxLength(100);
             Property(p => p.LogInfo).HasColumnName("PRD_LOGINFO").IsRequired().HasMaxLength(100);
 
-            HasRequired(p => p.Produit).WithMany(c => c.LogProduits).HasForeignKey(f => f.ProduitId);
+            HasOptional(p => p.Produit).WithMany(c => c.LogProduits).HasForeignKey(f => f.ProduitId);
         }
     }
 }
