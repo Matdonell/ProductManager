@@ -1,0 +1,7 @@
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\bin\Debug\Modele.Test.ProductManager.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\bin\Debug\Modele.Test.ProductManager.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\obj\Debug\Modele.Test.ProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\obj\Debug\Modele.Test.ProductManager.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele.Test.ProductManager\obj\Debug\Modele.Test.ProductManager.pdb

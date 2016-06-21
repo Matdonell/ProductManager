@@ -81,6 +81,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BusinessLayer\BusinessLayer.ProductManager.csproj">
+      <Project>{d8538a89-2665-405e-8d9f-a1ca46d2de5e}</Project>
+      <Name>BusinessLayer.ProductManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Modele\Modele.ProductManager.csproj">
+      <Project>{638cfebe-87dc-41b2-89ca-2acb95d5cd27}</Project>
+      <Name>Modele.ProductManager</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

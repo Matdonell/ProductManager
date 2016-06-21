@@ -11,20 +11,6 @@ C:\Travail\Modele\bin\Debug\EntityFramework.SqlServer.xml
 C:\Travail\Modele\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\Travail\Modele\obj\Debug\Modele.dll
 C:\Travail\Modele\obj\Debug\Modele.pdb
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Database.mdf
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Database_log.ldf
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Modele.dll.config
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Modele.dll
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Modele.pdb
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.dll
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.xml
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\obj\Debug\Modele.ProductManager.csprojResolveAssemblyReference.cache
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\obj\Debug\Modele.dll
-C:\Users\Julien\Documents\doc.net\ProductManager\Modele\obj\Debug\Modele.pdb
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Database.mdf
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Database_log.ldf
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\Modele.dll.config
@@ -39,3 +25,17 @@ C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\D
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.pdb
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.ProductManager.csprojResolveAssemblyReference.cache
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Database.mdf
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Database_log.ldf
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Modele.dll.config
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Modele.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Modele.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.xml
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\obj\Debug\Modele.dll
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\obj\Debug\Modele.pdb
+C:\Users\Julien\Documents\doc.net\ProductManager\Modele\obj\Debug\Modele.ProductManager.csprojResolveAssemblyReference.cache
