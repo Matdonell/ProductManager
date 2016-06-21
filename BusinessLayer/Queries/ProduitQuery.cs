@@ -53,6 +53,20 @@ namespace BusinessLayer.ProductManager.Queries
             return _contexte.Produits.Where(p => p.Nom == Name).FirstOrDefault();
         }
 
+
+        /// <summary>
+        /// Récupérer un produit par uen partie de son nom
+        /// </summary>
+        /// <param name="Name">Nom du produit à récupérer</param>
+        /// <returns>IQueryable de Produits</returns>
+        public IQueryable<Produit> GetByNameSearch(string partName)
+        {
+            return _contexte.Produits.Where(p => p.Nom.Contains(partName));
+        }
+
+
+        
+
         /// <summary>
         /// Récupérer les produits avec l'id categorie
         /// </summary>

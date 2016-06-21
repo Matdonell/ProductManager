@@ -107,6 +107,16 @@ namespace BusinessLayer.ProductManager
         }
 
         /// <summary>
+        /// Récupérer les produits avec une partie de son nom
+        /// </summary>
+        /// <param name="partStringme">Partie de string</param>
+        public List<Produit> GetProductsByNameSearch(String partStringme)
+        {
+            ProduitQuery produitQuery = new ProduitQuery(contexte);
+            return produitQuery.GetByNameSearch(partStringme).ToList();
+        }
+
+        /// <summary>
         /// Récupérer les produits d'une categorie avec son id
         /// </summary>
         /// <param name="categID">Identifiant de la categorie</param>
@@ -137,15 +147,18 @@ namespace BusinessLayer.ProductManager
         /// <returns>Liste de Categorie</returns>
         public List<Categorie> GetAllCategorie()
         {
-            try {
+            try
+            {
                 CategorieQuery pq = new CategorieQuery(contexte);
                 return pq.GetAll().ToList();
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
                 Console.WriteLine(e.InnerException);
             }
             return null;
         }
+
 
         #endregion
 

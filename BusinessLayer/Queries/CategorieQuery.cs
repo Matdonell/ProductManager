@@ -25,9 +25,9 @@ namespace BusinessLayer.ProductManager.Queries
         }
 
         /// <summary>
-        /// Récupérer tous les produits
+        /// Récupérer toutes les categories
         /// </summary>
-        /// <returns>IQueryable de Produit</returns>
+        /// <returns>IQueryable de categorie</returns>
         public IQueryable<Categorie> GetAll()
         {
             return _contexte.Categories;

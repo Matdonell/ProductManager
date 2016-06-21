@@ -154,24 +154,15 @@ namespace WebApplication.Controllers
         public ActionResult Search(ListProductViewModel listProductViewModel)
         {
             listProductViewModel.Categories = businessManager.GetAllCategorie();
+            Boolean searchForm = listProductViewModel.Search != null;
 
-            bool category = listProductViewModel.SelectedCategory != 0;
-            bool search = listProductViewModel.Search != null;
-
-            if (!category && !search)
+            if (!searchForm)
             {
                 listProductViewModel.Products = getAllProducts();
             }
-            else
+            else if (searchForm)
             {
-                if (category && search)
-                {
-                    listProductViewModel.Products = businessManager.GetProductsByCategoryIdAndName(listProductViewModel.SelectedCategory, listProductViewModel.Search);
-                }
-                else if (category)
-                {
-                    listProductViewModel.Products = businessManager.GetProductsByCategoryId(listProductViewModel.SelectedCategory);
-                }
+                listProductViewModel.Products = businessManager.GetProductsByNameSearch(listProductViewModel.Search);
             }
 
             return View("Index", listProductViewModel);
