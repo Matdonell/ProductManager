@@ -5,22 +5,21 @@ using System.Collections.Generic;
 
 namespace CommandeWCF
 {
-    public class Service1 : IServiceCommandes
+    public class ServiceProductManager : IServiceCommandes
     {
         /**
          * Method to return all the commands from the business layer
          */
-        public string GetCommandes()
+        public List<Commande> GetCommandes()
         {
             List<Commande> commandes = BusinessManager.Instance.getAllCommandes();
-            var javaScriptSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
-            return javaScriptSerializer.Serialize(commandes);
+            return commandes;
         }
 
         /**
          * Method to return all the command for a client id from the business layer
          */
-        public string getClientCommandes(string idClient)
+        public List<Commande> getClientCommandes(string idClient)
         {
             if (String.IsNullOrWhiteSpace(idClient))
             {
@@ -28,8 +27,7 @@ namespace CommandeWCF
             }
 
             List<Commande> commandes = BusinessManager.Instance.GetByClientID(int.Parse(idClient));
-            var javaScriptSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
-            return javaScriptSerializer.Serialize(commandes);
+            return commandes;
 
         }
     }
