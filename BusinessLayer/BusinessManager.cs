@@ -85,6 +85,48 @@ namespace BusinessLayer.ProductManager
             pc.Supprimer(produitID);
         }
 
+        /// <summary>
+        /// récupérer un produit avec son id
+        /// </summary>
+        /// <param name="produitID">Identifiant du produit à récupérer</param>
+        public Produit GetProductById(int produitID)
+        {
+            ProduitQuery prdQuery = new ProduitQuery(contexte);
+            return prdQuery.GetByID(produitID);
+        }
+
+        /// <summary>
+        /// Récupérer les produits d'une categorie avec son nom et un id
+        /// </summary>
+        /// <param name="categID">Identifiant de la categorie</param>
+        /// <param name="categName">Nom de la categorie</param>
+        public List<Produit> GetProductsByCategoryIdAndName(int categID, string categName)
+        {
+            ProduitQuery prdQuery = new ProduitQuery(contexte);
+            return prdQuery.GetByCategNameAndId(categID, categName).ToList();
+        }
+
+        /// <summary>
+        /// Récupérer les produits d'une categorie avec son id
+        /// </summary>
+        /// <param name="categID">Identifiant de la categorie</param>
+        public List<Produit> GetProductsByCategoryId(int categID)
+        {
+            ProduitQuery prdQuery = new ProduitQuery(contexte);
+            return prdQuery.GetByIdCategorie(categID).ToList();
+        }
+
+        /// <summary>
+        /// Récupérer un produit avec son nom
+        /// </summary>
+        /// <param name="productName">Nom du produit</param>
+        public Produit GetProductsByName(String productName)
+        {
+            ProduitQuery prdQuery = new ProduitQuery(contexte);
+            return prdQuery.GetByName(productName);
+        }
+
+
         #endregion
 
         #region Categorie
