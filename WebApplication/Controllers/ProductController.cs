@@ -58,13 +58,12 @@ namespace WebApplication.Controllers
         public ActionResult Details(int id)
         {
             ProductDetailsViewModel productDetailsViewModel = new ProductDetailsViewModel();
-            // TODO - verifier methode getby id
             //productDetailsViewModel.Products = businessManager.GetByProductID(id);
             return View(productDetailsViewModel);
         }
 
-        // GET: Product/Update/5
-        public ActionResult Update(int id)
+        // GET: Product/Edit/5
+        public ActionResult Edit(int id)
         {
             // TODO - Add update logic here
             return View();
