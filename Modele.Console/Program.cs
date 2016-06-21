@@ -22,6 +22,9 @@ namespace Modele.ProductManager.Console
             BusinessManager bm = BusinessManager.Instance;
             List<Categorie> categories = bm.GetAllCategorie();
 
+            /**
+             * DATA TEST
+             */
             int PierreID = bm.AjouterClient(new Client() { Nom = "CHARLES", Prenom = "Pierre", Email = "pierre.charles@gmail.com" });
             int julienID = bm.AjouterClient(new Client() { Nom = "BRAT", Prenom = "Julien", Email = "bratjulien@gmail.com" });
 
