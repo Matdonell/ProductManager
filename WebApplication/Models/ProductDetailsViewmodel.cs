@@ -8,8 +8,6 @@ namespace WebApplication.Models
 {
     public class ProductDetailsViewModel
     {
-        public List<Produit> Products { get; set; }
-
-        public List<Categorie> Categories { get; set; }
+        public Produit Products { get; set; }
     }
 }

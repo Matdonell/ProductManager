@@ -1,4 +1,4 @@
-﻿@model WebApplication.Models.ProductViewModel
+﻿@model WebApplication.Models.ListProductViewModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "List Product";
@@ -40,7 +40,7 @@
                         <p>
                             <strong>Code: </strong> @Html.DisplayFor(mItem => item.Code) <br/>
                             <strong>Category: </strong> @Html.DisplayFor(mItem => item.Categorie.Libelle)<br />
-                            <strong>Stock: </strong> @Html.DisplayFor(mItem => item.Stock) items left<br />
+                            <strong>Stock: </strong> @Html.DisplayFor(mItem => item.Stock)<br />
                         </p>
                     </div>
 

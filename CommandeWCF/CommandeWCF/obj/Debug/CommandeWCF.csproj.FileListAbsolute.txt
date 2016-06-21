@@ -12,3 +12,17 @@ C:\Users\Julien\Documents\doc.net\ProductManager\CommandeWCF\CommandeWCF\bin\Ent
 C:\Users\Julien\Documents\doc.net\ProductManager\CommandeWCF\CommandeWCF\bin\BusinessLayer.pdb
 C:\Users\Julien\Documents\doc.net\ProductManager\CommandeWCF\CommandeWCF\bin\Modele.pdb
 C:\Users\Julien\Documents\doc.net\ProductManager\CommandeWCF\CommandeWCF\bin\EntityFramework.xml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\Database.mdf
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\Database_log.ldf
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\CommandeWCF.dll.config
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\CommandeWCF.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\CommandeWCF.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\BusinessLayer.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\Modele.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\EntityFramework.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\BusinessLayer.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\Modele.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\bin\EntityFramework.xml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\obj\Debug\CommandeWCF.csprojResolveAssemblyReference.cache
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\obj\Debug\CommandeWCF.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\CommandeWCF\CommandeWCF\obj\Debug\CommandeWCF.pdb

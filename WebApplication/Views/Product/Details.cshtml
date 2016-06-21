@@ -5,18 +5,29 @@
     ViewBag.Title = "Detail Product";
 }
 
-<div class="clearfix">
-    @Html.ActionLink("Back Previous", "Index", null, new { @class = "btn btn-info" })
-</div>
+<h2>Product Detail - @Html.DisplayFor(model => model.Products.Nom)</h2>
 
-<h2>Product Detail</h2>
+<hr />
 
 <div class="row">
     <div class="col-xs-12">
-        <div>
-            <h4>@Html.DisplayFor(model => model.Products) - @Html.DisplayFor(modelItem => modelItem.Products) €</h4>
-            <hr />
+        <div class="pull-right">
+            @Html.ActionLink("Update", "Update", new { id = Model.Products.ID }, new { @class = "btn btn-default" })
+            @Html.ActionLink("Delete", "Delete", new { id = Model.Products.ID }, new { @class = "btn btn btn-danger" })
+        </div>
+        <h3 class="list-group-item-heading"> @Html.DisplayFor(model => model.Products.Nom) </h3>
+
+        <div class="list-group-item-text">
+            <p>
+                <strong>Code: </strong> @Html.DisplayFor(model => model.Products.Code) <br />
+                <strong>Category: </strong> @Html.DisplayFor(model => model.Products.Categorie.Libelle)<br />
+                <strong>Stock: </strong> @Html.DisplayFor(model => model.Products.Stock)<br />
+            </p>
+        </div>
+
+        <div class="pull-right">
+            <h2>@Html.DisplayFor(model => Model.Products.Prix) € </h2>
         </div>
 
     </div>
-</div>   
+</div>
