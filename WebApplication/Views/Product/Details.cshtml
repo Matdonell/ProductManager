@@ -5,23 +5,18 @@
     ViewBag.Title = "Detail Product";
 }
 
+<div class="clearfix">
+    @Html.ActionLink("Back Previous", "Index", null, new { @class = "btn btn-info" })
+</div>
+
 <h2>Product Detail</h2>
 
 <div class="row">
     <div class="col-xs-12">
         <div>
-            <h4>@Html.DisplayFor(model => model.Product.Name) - @Html.DisplayFor(modelItem => modelItem.Product.Price) €</h4>
+            <h4>@Html.DisplayFor(model => model.Products) - @Html.DisplayFor(modelItem => modelItem.Products) €</h4>
             <hr />
-            <p>Description: @Html.DisplayFor(modelItem => modelItem.Product.Description)</p>
-            <p>Category: @Html.DisplayFor(modelItem => modelItem.Product.Category.Wording)</p>
-            <p>@Html.DisplayFor(modelItem => modelItem.Product.Stock) items left</p>
         </div>
 
-        <div class="pull-right">
-            <div class="clearfix">
-                @Html.ActionLink("Edit", "Edit", new { id = Model.Product.Id }, new { @class = "btn btn-default" })
-                @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
-            </div>
-        </div>
     </div>
 </div>   

@@ -91,7 +91,7 @@ namespace WebApplication.Controllers
         // GET: Product/Update/5
         public ActionResult Delete(int id)
         {
-            return View();
+            return RedirectToAction("Index");
         }
 
         // POST: Product/Delete/5
