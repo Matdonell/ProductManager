@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\obj\Debug\
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\obj\Debug\
 WPFProductManager
 none
 false
 DEBUG;TRACE
-C:\Users\Julien\Documents\doc.net\ProductManager\WPFProductManager\App.xaml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WPFProductManager\App.xaml
 51778558701
 
-211718864754
-191218793028
+21-1640102088
+19527024256
 MainWindow.xaml;Views\AjouterProduit.xaml;Views\DetailProduit.xaml;Views\ListeProduit.xaml;Views\Operation.xaml;
 
-False
+True
 

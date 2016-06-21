@@ -120,3 +120,5 @@ C:\Users\Julien\Documents\doc.net\ProductManager\WebApplication\bin\fr\System.We
 C:\Users\Julien\Documents\doc.net\ProductManager\WebApplication\obj\Debug\WebApplication.csprojResolveAssemblyReference.cache
 C:\Users\Julien\Documents\doc.net\ProductManager\WebApplication\obj\Debug\WebApplication.dll
 C:\Users\Julien\Documents\doc.net\ProductManager\WebApplication\obj\Debug\WebApplication.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\WebApplication\bin\EntityFramework.SqlServer.xml

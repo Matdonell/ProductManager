@@ -39,14 +39,17 @@ namespace WebApplication.Controllers
             {
                 if (category && search)
                 {
+                    // TODO - Add update logic here
                     // model.Products = businessManager.GetProductsByCategoryIdAndName(model.SelectedCategory, model.Search);                    
                 }
                 else if (category)
                 {
+                    // TODO - Add update logic here
                     //model.Products = businessManager.GetProductsByCategoryId(model.SelectedCategory);
                 }
                 else if (search)
                 {
+                    // TODO - Add update logic here
                     // model.Products = businessManager.GetProductsByName(model.Search);
                 }
             }
@@ -57,20 +60,20 @@ namespace WebApplication.Controllers
         // GET: Product/Details/5
         public ActionResult Details(int id)
         {
+            // TODO - Add update logic here
             ProductDetailsViewModel productDetailsViewModel = new ProductDetailsViewModel();
-            // TODO - verifier methode getby id
             //productDetailsViewModel.Products = businessManager.GetByProductID(id);
             return View(productDetailsViewModel);
         }
 
-        // GET: Product/Update/5
-        public ActionResult Update(int id)
+        // GET: Product/Edit/5
+        public ActionResult Edit(int id)
         {
             // TODO - Add update logic here
             return View();
         }
 
-        // POST: Product/Edit/5
+        // POST: Product/Update/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -85,7 +88,7 @@ namespace WebApplication.Controllers
             }
         }
 
-        // GET: Product/Delete/5
+        // GET: Product/Update/5
         public ActionResult Delete(int id)
         {
             return View();
