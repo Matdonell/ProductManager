@@ -32,7 +32,7 @@
             <TextBlock Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,18,22,27" Height="29" Width="53"><Run Text="Euros (€)"/><LineBreak/><Run Text=" "/></TextBlock>
 
             <TextBox Name="Nom" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="14,15,37,30" Height="29"/>
-            <TextBox Name="Reference" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="14,18,37,28" Height="28"/>
+            <TextBox Name="Code" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="14,18,37,28" Height="28"/>
             <TextBox Name="Status" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="14,26,33,22" Height="26"/>
             <TextBox Name="Price" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="3" Grid.Column="1" Margin="15,17,80,27" Height="30"/>
             <TextBox Name="Stock" HorizontalAlignment="Stretch" VerticalAlignment="Center" Grid.Row="4" Grid.Column="1" Margin="14,28,81,20" Height="26"/>

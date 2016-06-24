@@ -36,6 +36,5 @@ C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\D
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\EntityFramework.xml
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.ProductManager.csprojResolveAssemblyReference.cache
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\Modele\obj\Debug\Modele.pdb

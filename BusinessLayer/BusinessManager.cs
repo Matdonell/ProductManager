@@ -60,7 +60,6 @@ namespace BusinessLayer.ProductManager
         public int AjouterProduit(Produit produit)
         {
             // TODO : ajouter des contrôles sur le produit (exemple : vérification de champ, etc.)
-            produit.ID = this.GetMaxProductId();
             ProduitCommand productCommand = new ProduitCommand(contexte);
             return productCommand.Ajouter(produit);
         }

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Windows;
 using WPFProductManager.ViewModels.Common;
+using BusinessLayer.ProductManager;
 
 namespace WPFProductManager.ViewModels
 {
@@ -18,6 +19,14 @@ namespace WPFProductManager.ViewModels
     {
         #region Variables
 
+        /// <summary>
+        /// Instace of Business Manager
+        /// </summary>
+        private BusinessManager businessManager = BusinessManager.Instance;
+
+        /// <summary>
+        /// Attributs
+        /// </summary>
         private string _code;
         private string _nom;
         private string _status;
@@ -25,9 +34,15 @@ namespace WPFProductManager.ViewModels
         private int _stock;
         private List<LogProduit> _logs;
 
+        /// <summary>
+        /// View
+        /// </summary>
         private Views.AjoutProduit _addProductWindow;
         private Views.Operation _operationWindow;
 
+        /// <summary>
+        /// Commandes
+        /// </summary>
         private RelayCommand _commandOpenOperationWindow;
         private RelayCommand _commandOpenAddProductWindow;
         private RelayCommand _commandAddProduct;
@@ -62,12 +77,14 @@ namespace WPFProductManager.ViewModels
         /// <summary>
         /// Code du produit
         /// </summary>
-        public string Code 
+        public string Code
         {
-            get {
+            get
+            {
                 return _code;
             }
-            set {
+            set
+            {
                 _code = value;
                 OnPropertyChanged("Code");
             }
@@ -78,10 +95,12 @@ namespace WPFProductManager.ViewModels
         /// </summary>
         public string Nom
         {
-            get {
+            get
+            {
                 return _nom;
             }
-            set {
+            set
+            {
                 _nom = value;
                 OnPropertyChanged("Nom");
             }
@@ -260,6 +279,8 @@ namespace WPFProductManager.ViewModels
             }
         }
 
+        public string Log { get; private set; }
+
 
         /// <summary>
         /// Permet l'ouverture de la fenêtre
@@ -303,16 +324,42 @@ namespace WPFProductManager.ViewModels
         /// </summary>
         private void AddProduct()
         {
-            this.CloseAddProductWindow();
+            try
+            {
+                Produit product = new Produit();
+                product.ID = businessManager.GetMaxProductId();
+                product.Nom = _addProductWindow.Nom.Text;
+                product.Code = _addProductWindow.Code.Text;
+                product.Prix = int.Parse(_addProductWindow.Price.Text);
+                product.Stock = int.Parse(_addProductWindow.Stock.Text);
+                product.Status = _addProductWindow.Status.Text;
+                businessManager.AjouterProduit(product);
+                this.CloseAddProductWindow();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Erreur d'ajout sur le produit.\n ErrorMessage : " + e.Message);
+            }
         }
 
 
         /// <summary>
-        /// Ajoute un produit a la liste view model
+        /// Ajoute un log produit a la liste view model
         /// </summary>
         private void AddOperationButton()
         {
-            this.CloseAddOperationWindow();
+            try
+            {
+                LogProduit logProduit = new LogProduit();
+                logProduit.LogInfo = Log;
+                businessManager.AjouterLogProduit(logProduit);
+                this.CloseAddOperationWindow();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Erreur d'ajout d'un log sur le produit.\n ErrorMessage : " + e.Message);
+            }
+            
         }
 
         /// <summary>
@@ -321,15 +368,20 @@ namespace WPFProductManager.ViewModels
         private void RemoveProduct()
         {
             MessageBoxResult messageBoxResult = MessageBox.Show(
-                "Etes-vous certain de vouloir supprimer ce produit ?", 
-                "Confirmation de suppression d'un produit", 
+                "Etes-vous certain de vouloir supprimer ce produit ?",
+                "Confirmation de suppression d'un produit",
                 MessageBoxButton.YesNo);
             if (messageBoxResult == MessageBoxResult.Yes)
             {
-           
-                /// TODO - code remove listview product
+                try
+                {
+                    /// TODO - code remove listview product
+                }
+                catch (Exception e)
+                {
+                    MessageBox.Show("Erreur de supression du produit "+e.Message);
+                }
             }
-                
         }
 
         /// <summary>
@@ -343,7 +395,7 @@ namespace WPFProductManager.ViewModels
                 MessageBoxButton.YesNo);
             if (messageBoxResult == MessageBoxResult.Yes)
             {
-               
+                //businessManager.SupprimerLogProduit(this.);
                 /// TODO - code remove listview logs product
             }
 

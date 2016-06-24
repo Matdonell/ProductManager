@@ -6,46 +6,60 @@
 
 <h2>Products List</h2>
 
-<div class="row">
-    <div class="col-xs-12">
-        @using (Html.BeginForm("Search", "Product", FormMethod.Post, new { @class = "form-inline", role = "form" }))
-        {
-            <div class="form-group">
-                @Html.TextBoxFor(search => search.Search, new { @name = "search", @class = "form-control", @placeholder = "Search" })
-            </div>
-            <button type="submit" class="btn btn-success">
-                Search
-            </button>
-            @Html.ActionLink("Add New Product", "Add", null, new { @class = "btn btn-primary pull-right" })
-        }
+
+@if (Model.Products.Count == 0)
+{
+    <div class="row">
+        <div class="col-xs-12 clearfix">
+            <ul class="list-group">
+                No products found
+            </ul>
+        </div>
     </div>
-    <br />
-    <div class="col-xs-12 clearfix">
-        <ul class="list-group">
-            @foreach (var product in Model.Products)
-            {
-                <li class="list-group-item clearfix">
-                    <div class="pull-right">
-                        @Html.ActionLink("Update", "Update", new { id = product.ID }, new { @class = "btn btn-default" })
-                        @Html.ActionLink("Show Details", "Details", new { id = product.ID }, new { @class = "btn btn-default" })
-                        @Html.ActionLink("Delete", "Delete", new { id = product.ID }, new { @class = "btn btn btn-danger" })
-                    </div>
-
-                    <h3 class="list-group-item-heading"> @Html.DisplayFor(mItem => product.Nom) </h3>
-
-                    <div class="list-group-item-text">
-                        <p>
-                            <strong>Code: </strong> @Html.DisplayFor(mItem => product.Code) <br />
-                            <strong>Category: </strong> @Html.DisplayFor(mItem => product.Categorie.Libelle)<br />
-                            <strong>Stock: </strong> @Html.DisplayFor(mItem => product.Stock)<br />
-                        </p>
-                    </div>
-
-                    <div class="pull-right">
-                        <h2>@Html.DisplayFor(mItem => product.Prix) € </h2>
-                    </div>
-                </li>
+}
+else
+{
+    <div class="row">
+        <div class="col-xs-12">
+            @using (Html.BeginForm("Search", "Product", FormMethod.Post, new { @class = "form-inline", role = "form" }))
+                {
+                <div class="form-group">
+                    @Html.TextBoxFor(search => search.Search, new { @name = "search", @class = "form-control", @placeholder = "Search" })
+                </div>
+                <button type="submit" class="btn btn-success">
+                    Search
+                </button>
+                            @Html.ActionLink("Add New Product", "Add", null, new { @class = "btn btn-primary pull-right" })
             }
-        </ul>
+        </div>
+        <br />
+        <div class="col-xs-12 clearfix">
+            <ul class="list-group">
+                @foreach (var product in Model.Products)
+                {
+                    <li class="list-group-item clearfix">
+                        <div class="pull-right">
+                            @Html.ActionLink("Update", "Update", new { id = product.ID }, new { @class = "btn btn-default" })
+                            @Html.ActionLink("Show Details", "Details", new { id = product.ID }, new { @class = "btn btn-default" })
+                            @Html.ActionLink("Delete", "Delete", new { id = product.ID }, new { @class = "btn btn btn-danger" })
+                        </div>
+
+                        <h3 class="list-group-item-heading"> @Html.DisplayFor(mItem => product.Nom) </h3>
+
+                        <div class="list-group-item-text">
+                            <p>
+                                <strong>Code: </strong> @Html.DisplayFor(mItem => product.Code) <br />
+                                <strong>Category: </strong> @Html.DisplayFor(mItem => product.Categorie.Libelle)<br />
+                                <strong>Stock: </strong> @Html.DisplayFor(mItem => product.Stock)<br />
+                            </p>
+                        </div>
+
+                        <div class="pull-right">
+                            <h2>@Html.DisplayFor(mItem => product.Prix) € </h2>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
     </div>
-</div>
+}

@@ -15,6 +15,7 @@ namespace WebApplication.Controllers
     /// </summary>
     public class ProductController : Controller
     {
+
         /// <summary>
         /// Instace of Business Manager
         /// </summary>

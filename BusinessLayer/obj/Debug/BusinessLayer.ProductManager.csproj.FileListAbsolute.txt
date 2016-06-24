@@ -26,16 +26,16 @@ C:\Users\Julien\Documents\doc.net\ProductManager\BusinessLayer\bin\Debug\EntityF
 C:\Users\Julien\Documents\doc.net\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.ProductManager.csprojResolveAssemblyReference.cache
 C:\Users\Julien\Documents\doc.net\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.dll
 C:\Users\Julien\Documents\doc.net\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.pdb
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\EntityFramework.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\Database.mdf
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\Database_log.ldf
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\BusinessLayer.dll.config
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\BusinessLayer.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\BusinessLayer.pdb
-C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\EntityFramework.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\Modele.dll
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\Modele.pdb
+C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\EntityFramework.xml
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.ProductManager.csprojResolveAssemblyReference.cache
 C:\Users\Pierre.C\Documents\Cours\Licence Web\Csharp\ProductManager\BusinessLayer\obj\Debug\BusinessLayer.dll
