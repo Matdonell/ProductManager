@@ -17,17 +17,5 @@ namespace WebApplication.Models
 
         public String Search { get; set; }
 
-        public IEnumerable<SelectListItem> CategoryItems
-        {
-            get
-            {
-                List<Categorie> categories = new List<Categorie>();
-                categories.Add(new Categorie(){ ID = 0, Libelle = ""});
-                if (Categories.Count > 0)
-                    categories.AddRange(Categories);
-                return new SelectList(categories, "ID");
-            }
-        }
-
     }
 }

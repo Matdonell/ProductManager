@@ -148,8 +148,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AddProductViewModel.cs" />
     <Compile Include="Models\ListProductViewModel.cs" />
-    <Compile Include="Models\ProductDetailsViewModel.cs" />
+    <Compile Include="Models\DetailsProductViewModel.cs" />
+    <Compile Include="Models\UpdateProductViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

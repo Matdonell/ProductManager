@@ -7,27 +7,28 @@ namespace CommandeWCF
 {
     public class ServiceProductManager : IServiceCommandes
     {
-        /**
-         * Method to return all the commands from the business layer
-         */
+
+        /// <summary>
+        /// Method to return all the commands from the business layer
+        /// </summary>
+        /// <returns></returns>
         public List<Commande> GetCommandes()
         {
-            List<Commande> commandes = BusinessManager.Instance.getAllCommandes();
-            return commandes;
+            return BusinessManager.Instance.getAllCommandes();
         }
 
-        /**
-         * Method to return all the command for a client id from the business layer
-         */
+        /// <summary>
+        ///  Method to return all the command for a client id from the business layer
+        /// </summary>
+        /// <param name="idClient"></param>
+        /// <returns></returns>
         public List<Commande> getClientCommandes(string idClient)
         {
             if (String.IsNullOrWhiteSpace(idClient))
             {
                 throw new ArgumentNullException("idClient");
             }
-
-            List<Commande> commandes = BusinessManager.Instance.GetByClientID(int.Parse(idClient));
-            return commandes;
+            return BusinessManager.Instance.GetByClientID(int.Parse(idClient));
 
         }
     }

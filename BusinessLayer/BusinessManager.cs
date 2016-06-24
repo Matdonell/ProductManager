@@ -55,13 +55,21 @@ namespace BusinessLayer.ProductManager
         /// <summary>
         /// Ajouter un produit en base
         /// </summary>
-        /// <param name="p">Produit à ajouter</param>
+        /// <param name="produit">Produit à ajouter</param>
         /// <returns>identifiant du nouveau produit</returns>
-        public int AjouterProduit(Produit p)
+        public int AjouterProduit(Produit produit)
         {
             // TODO : ajouter des contrôles sur le produit (exemple : vérification de champ, etc.)
-            ProduitCommand pc = new ProduitCommand(contexte);
-            return pc.Ajouter(p);
+            produit.ID = this.GetMaxProductId();
+            ProduitCommand productCommand = new ProduitCommand(contexte);
+            return productCommand.Ajouter(produit);
+        }
+
+
+        public int GetMaxProductId()
+        {
+            ProduitQuery productQuery = new ProduitQuery(contexte);
+            return productQuery.GetMaxProductID();
         }
 
         /// <summary>

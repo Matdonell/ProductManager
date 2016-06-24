@@ -50,9 +50,10 @@ namespace WebApplication.Controllers
 
         public ActionResult Details(int id)
         {
-            ProductDetailsViewModel productDetailsViewModel = new ProductDetailsViewModel();
-            productDetailsViewModel.Products = businessManager.GetProductById(id);
-            return View(productDetailsViewModel);
+            DetailsProductViewModel detailsProductViewModel = new DetailsProductViewModel();
+            detailsProductViewModel.Products = businessManager.GetProductById(id);
+            detailsProductViewModel.Log = businessManager.getAllLogProduit();
+            return View(detailsProductViewModel);
         }
 
         /// <summary>
@@ -62,8 +63,9 @@ namespace WebApplication.Controllers
         /// <returns></returns>
         public ActionResult Update(int id)
         {
-            // TODO - Add update logic here
-            return View();
+            UpdateProductViewModel updateProductViewModel = new UpdateProductViewModel();
+            updateProductViewModel.Product = businessManager.GetProductById(id);
+            return View(updateProductViewModel);
         }
 
         /// <summary>
@@ -73,16 +75,21 @@ namespace WebApplication.Controllers
         /// <param name="collection"></param>
         /// <returns></returns>
         [HttpPost]
-        public ActionResult Update(int id, FormCollection collection)
+        public ActionResult Update(int id, UpdateProductViewModel updateProductViewModel)
         {
             try
             {
-                // TODO - Add update logic here
+                if (updateProductViewModel == null || !ModelState.IsValid)
+                {
+                    return View(updateProductViewModel);
+                }
+
+                businessManager.ModifierProduit(updateProductViewModel.Product);
                 return RedirectToAction("Index");
             }
             catch
             {
-                return View();
+                return View(updateProductViewModel);
             }
         }
 
@@ -124,24 +131,29 @@ namespace WebApplication.Controllers
 
         public ActionResult Add()
         {
-            return View();
+            return View(new AddProductViewModel());
         }
 
         /// <summary>
         /// POST: Product/Add
         /// </summary>
-        /// <param name="listProductViewModel"></param>
+        /// <param name="addProductViewModel"></param>
         /// <returns></returns>
         [HttpPost]
-        public ActionResult Add(Models.ListProductViewModel listProductViewModel)
+        public ActionResult Add(AddProductViewModel addProductViewModel)
         {
             try
             {
+                if (addProductViewModel == null || !ModelState.IsValid)
+                {
+                    return View(addProductViewModel);
+                }
+                businessManager.AjouterProduit(addProductViewModel.Product);
                 return RedirectToAction("Index");
             }
             catch
             {
-                return View();
+                return View(addProductViewModel);
             }
         }
 

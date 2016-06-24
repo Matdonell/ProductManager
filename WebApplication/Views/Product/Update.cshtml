@@ -1,7 +1,51 @@
-﻿@model WebApplication.Models.ProductViewModel
+﻿@model WebApplication.Models.UpdateProductViewModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Update Product";
 }
 <h2>Edit and Update product</h2>
 
+<hr/>
+
+    <div class="col-xs-12">
+        @using (Html.BeginForm("Update", "Product", FormMethod.Post, new { role = "form" }))
+        {
+            @Html.HiddenFor(model => Model.Product.ID)
+
+            <div class="form-group">
+                <label for="name">
+                    Name :
+                    @Html.TextBoxFor(item => item.Product.Nom, new { @name = "name", @class = "form-control" })
+                    @Html.ValidationMessageFor(item => item.Product.Nom)
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="code">
+                    Code :
+                    @Html.TextBoxFor(item => item.Product.Code, new { @name = "code", @class = "form-control" })
+                    @Html.ValidationMessageFor(item => item.Product.Code)
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="price">
+                    Price :
+                    @Html.TextBoxFor(item => item.Product.Prix, new { @name = "price", @class = "form-control" })
+                    @Html.ValidationMessageFor(item => item.Product.Prix)
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="stock">
+                    Stock :
+                    @Html.TextBoxFor(item => item.Product.Stock, new { @name = "stock", @class = "form-control" })
+                    @Html.ValidationMessageFor(item => item.Product.Stock)
+                </label>
+            </div>
+
+            <span class="clearfix">
+                <button type="submit" class="btn btn-primary">Update change</button>
+            </span>
+        }
+    </div>

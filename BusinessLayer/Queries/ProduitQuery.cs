@@ -43,6 +43,17 @@ namespace BusinessLayer.ProductManager.Queries
             return _contexte.Produits.Where(p => p.ID == id).FirstOrDefault();
         }
 
+
+        /// <summary>
+        /// Récupérer l'id max des produits
+        /// </summary>
+        /// <param name="id">Identifiant du produit à récupérer</param>
+        /// <returns>IQueryable de Produit</returns>
+        public int GetMaxProductID()
+        {
+            return _contexte.Produits.Max(product => product.ID);
+        }
+
         /// <summary>
         /// Récupérer un produit par son nom
         /// </summary>

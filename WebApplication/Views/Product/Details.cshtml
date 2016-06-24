@@ -1,4 +1,4 @@
-﻿@model WebApplication.Models.ProductDetailsViewModel
+﻿@model WebApplication.Models.DetailsProductViewModel
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -22,6 +22,11 @@
                 <strong>Code: </strong> @Html.DisplayFor(model => model.Products.Code) <br />
                 <strong>Category: </strong> @Html.DisplayFor(model => model.Products.Categorie.Libelle)<br />
                 <strong>Stock: </strong> @Html.DisplayFor(model => model.Products.Stock)<br />
+                @foreach (var log in Model.Log) {
+                    <div class="list-group-item-text">
+                        <strong>Logs: </strong> @Html.DisplayFor(model => log.Date) - @Html.DisplayFor(model => log.LogInfo)<br />
+                    </div>
+                }
             </p>
         </div>
 
